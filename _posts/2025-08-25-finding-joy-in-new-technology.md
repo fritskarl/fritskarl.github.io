@@ -1,7 +1,7 @@
 ---
 title: Finding Joy In New Technology
 author: fritskarl
-date: 2025-08-25 17:02:00 +0100
+date: 2025-08-25 17:02:00 Europe/Amsterdam
 categories: [Linux, DevOps, Virtualization, Development, AI]
 tags: [Omarchy, Unraid, VS-Code, Github-Copilot, RTX-5060-Ti-16GB, HP-Z840]
 ---
