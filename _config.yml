@@ -198,6 +198,7 @@ sass:
   load_paths:
     - _sass
     - _sass/vendors
+    - assets/css
 
 compress_html:
   clippings: all
