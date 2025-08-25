@@ -38,7 +38,7 @@ So I'm moving to **Omarchy**, an opinionated Hyprland Arch installation designed
 | **Hyprland**            | Dynamic tiling, GPU‑accelerated compositing, ideal for managing dozens of applications. |
 | **Pre‑installed stack** | Most of what I need to build and ship SaaS apps.                                        |
 | **Configurable**        | Declarative config, reproducible builds, instant results.                               |
-| **GPU support**         | Full NVIDIA driver stack for my RTX 5060 Ti 16GB cards (see section 4).                 |
+| **GPU support**         | Full NVIDIA driver stack for my RTX 5060 Ti 16GB cards (see section 4).                  |
 
 ---
 
@@ -60,12 +60,12 @@ On larger code bases I mainly use tab completion, sometimes Edit. But for small 
 
 Unraid is the glue that ties my entire setup together:
 
-| Role                       | Setup                                                                                                                                                                      |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Role                       | Setup                                                                                                                                                                     |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Gaming VMs (2×)**        | Each gets a dedicated RTX 5060 Ti 16GB passed through. I can run high‑FPS games without compromising server performance. Most if not all games on max settings on full HD. |
-| **Omarchy VM**             | When the game VMs are off, their GPU resources are reclaimed and handed over to an Omarchy virtual machine, my local dev environment for building SaaS apps.               |
-| **Other**                  | Inside Unraid I also run some docker apps to help with work, like a reverse proxy, a password vault (Vaultwarden, in progress) and more that come and go.                  |
-| **Steam cache (lancache)** | A Docker container that caches Steam downloads locally, reducing bandwidth usage for both VMs.                                                                             |
+| **Omarchy VM**             | When the game VMs are off, their GPU resources are reclaimed and handed over to an Omarchy virtual machine, my local dev environment for building SaaS apps.              |
+| **Other**                  | Inside Unraid I also run some docker apps to help with work, like a reverse proxy, a password vault (Vaultwarden, in progress) and more that come and go.                 |
+| **Steam cache (lancache)** | A Docker container that caches Steam downloads locally, reducing bandwidth usage for both VMs.                                                                            |
 
 > **Why Unraid?**  
 > Its web UI is a single pane of glass to manage all these services, and its GPU pass-through capabilities lets me share hardware between gaming and development workloads.
@@ -81,6 +81,7 @@ Specs for the interested:
 | **RTX 5060 Ti 16GB (2x)**     | Great budget cards for 1080p gaming and AI inference. The memory bandwidth is 448 GB/s, which is very close to an M3 Max. Two of them deliver 32GB of VRAM, which is very nice for a budget system.                            |
 | **HP Z Turbo Drive Quad Pro** | A PCIe card that offers 4 NVME slots, as the Z840 doesn't have that natively. I use 2 slotes for the gaming VMs and the rest for Unraid cache pool (where the other VMs live). The drives are small 256GB, but enough for now. |
 | **SAS Drives (4x)**           | The Z840 has a SAS controller, so 4x 4TB (and a spare) were acquired from a sale. They are used but have only a year and half on them.                                                                                         |
+
 All in all the cost of the whole system was around 1500 moneys (usd or euro, close enough). That is a pretty good deal if you ask me, considering the only other solution to get 32GB of VRAM is an RTX 5090. The 5090 costs 2000 at least, without a computer. It is exactly 4x faster though. Meh, I'll survive, and if I need something fast I'll use the cloud for the job.
 
 
