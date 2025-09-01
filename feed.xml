@@ -14,8 +14,8 @@
         <author>
             <name>Frits Karl</name>
         </author>
-        <link href="https://fritskarl.com/finding-joy-in-new-technology/"/>
-        <id>https://fritskarl.com/finding-joy-in-new-technology/</id>
+        <link href="https://fritskarl.com/blog/finding-joy-in-new-technology/"/>
+        <id>https://fritskarl.com/blog/finding-joy-in-new-technology/</id>
             <category term="Visual Studio Code"/>
             <category term="Virtualization"/>
             <category term="Unraid"/>
@@ -206,8 +206,8 @@
         <author>
             <name>Frits Karl</name>
         </author>
-        <link href="https://fritskarl.com/hello-world/"/>
-        <id>https://fritskarl.com/hello-world/</id>
+        <link href="https://fritskarl.com/blog/hello-world/"/>
+        <id>https://fritskarl.com/blog/hello-world/</id>
             <category term="Lorem Ipsum"/>
 
         <updated>2025-08-24T10:20:00+02:00</updated>
