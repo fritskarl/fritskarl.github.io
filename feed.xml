@@ -3,7 +3,7 @@
     <title>Frits Karl</title>
     <link href="https://fritskarl.com/feed.xml" rel="self" />
     <link href="https://fritskarl.com" />
-    <updated>2025-08-31T19:28:07+02:00</updated>
+    <updated>2025-09-01T17:08:08+02:00</updated>
     <author>
         <name>Frits Karl</name>
     </author>
@@ -208,18 +208,16 @@
         </author>
         <link href="https://fritskarl.com/blog/hello-world/"/>
         <id>https://fritskarl.com/blog/hello-world/</id>
-            <category term="Lorem Ipsum"/>
 
         <updated>2025-08-24T10:20:00+02:00</updated>
             <summary>
                 <![CDATA[
-                    Suspendisse consectetur condimentum tristique. Sed eleifend maximus lorem, vel convallis massa. Maecenas&hellip;
+                    Hello.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>Suspendisse consectetur condimentum tristique. Sed eleifend maximus lorem, vel convallis massa. Maecenas et nisi nisi. Integer iaculis lectus a tellus porttitor ullamcorper. Proin in tellus id purus bibendum tempor a sit amet mauris. Cras quis neque at ligula rhoncus luctus. Curabitur ac nisi diam. Nunc commodo felis vel sem consectetur rhoncus. Fusce vestibulum enim et enim finibus, non consequat tortor accumsan. Nullam bibendum non lorem a commodo. Suspendisse finibus facilisis vehicula. Nunc dictum luctus turpis a posuere. Etiam malesuada mi turpis. Cras vehicula nec arcu in interdum.</p>
-<p>Sed vitae scelerisque enim, blandit ullamcorper urna. Curabitur at feugiat nibh. Maecenas a tellus est. Morbi ultricies ante placerat aliquam varius. Fusce iaculis hendrerit tortor, a molestie orci tristique hendrerit. Aenean mattis purus eu tortor blandit, quis vehicula enim finibus. Sed finibus sem sed libero tincidunt finibus. Sed et maximus nisi, eget condimentum diam. Curabitur vulputate nulla a est tincidunt ultrices. Suspendisse aliquet varius porttitor.</p>
+                <p>Hello.</p>
             ]]>
         </content>
     </entry>
